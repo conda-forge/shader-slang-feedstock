@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2026.14"
+  version: "2026.16"
 
 package:
   name: shader-slang
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://github.com/shader-slang/slang/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 6782f3bc48864fa179d1fb875a172b9c53cb0fd768a3241ff470fb1ccaca97ec
+    sha256: e23102fa38f192f108de6f99b381fb32249f43c286a41af55f848de60ee54978
     target_directory: shader-slang
     patches:
       - 0001-add-public-latest-capability-aliases.patch
